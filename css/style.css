@@ -16,8 +16,89 @@ body{
     font-family: HelveticaNeueW01-45Ligh,HelveticaNeueW02-45Ligh,HelveticaNeueW10-45Ligh,sans-serif;
 }
 
+
+.a-style{
+    font-size: 24px;
+    padding: 10px 40px;
+    border-radius: 2rem;
+    color: black;
+    border-color: black!important;
+    font-weight: lighter;
+}
 .a-style:hover{
     color: white !important;
-    background-color: #53B8F3;
-    border-color: #53B8F3!important;
+    background-color: #1485E8;
+    border-color: #1485E8!important;
 }
+
+.input {
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(0,0,0,0.15);
+    padding: 0px;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.input-class{
+    color: #D3D3D3;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.input:focus {
+    border: none;
+    border-bottom: 2px solid;
+    border-bottom-color: #1485E8;
+    outline: none;
+}
+
+.form-group:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+.label-style{
+    color: #1485E8;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+.label-style-2{
+    color: #1485E8;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+hr{
+    margin-top: 0;
+}
+
+/*input::-webkit-input-placeholder {*/
+    /*color: #D3D3D3 !important;*/
+/*}*/
+/*input::-webkit-textfield-decoration-container {*/
+    /*color: #D3D3D3 !important;*/
+/*}*/
+
+
+/*input:-moz-placeholder { !* Firefox 18- *!*/
+    /*color: #D3D3D3 !important;*/
+/*}*/
+
+/*input::-moz-placeholder {  !* Firefox 19+ *!*/
+    /*color: #D3D3D3 !important;*/
+/*}*/
+
+/*input:-ms-input-placeholder {*/
+    /*color: #D3D3D3 !important;*/
+/*}*/
