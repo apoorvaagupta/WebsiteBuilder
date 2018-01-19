@@ -13,7 +13,7 @@ $(function () {
     console.log(blob);
     var url = URL.createObjectURL(blob);
     console.log(url);
-    location.href = url
+    //location.href = url
 
   })
 })
