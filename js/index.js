@@ -355,7 +355,7 @@ $(function () {
 
 
     var zip = new JSZip();
-    zip.file("test.txt", JSON.stringify(info)).file("resume.min.css", css).file("resume.min.js", js);
+    zip.file("resume.min.css", css).file("resume.min.js", js);
     if (image) {
       zip.file('profile.jpg', image, {base64: true});
     }
