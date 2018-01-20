@@ -219,7 +219,7 @@ $(function () {
 
     var zip = new JSZip();
     zip.folder('test').file("test.txt", JSON.stringify(info)).file("resume.min.css", css).file("resume.min.js", js);
-    if(image){
+    if (image) {
       zip.folder('test').file('profile.jpg', image, {base64: true});
     }
     zip.generateAsync({type: "blob"}, function updateCallback(metadata) {
