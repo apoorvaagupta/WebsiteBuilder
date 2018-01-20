@@ -83,6 +83,7 @@ $(function () {
     let name = $('#name').val();
     let job = $('#job').val();
     let bio = $('#bio').val();
+    let image = $('#image')[0].files[0]
     let email = $('#email').val();
     let phone = $('#phone').val();
     let address = $('#address').val();
@@ -218,6 +219,9 @@ $(function () {
 
     var zip = new JSZip();
     zip.folder('test').file("test.txt", JSON.stringify(info)).file("resume.min.css", css).file("resume.min.js", js);
+    if(image){
+      zip.folder('test').file('profile.jpg', image, {base64: true});
+    }
     zip.generateAsync({type: "blob"}, function updateCallback(metadata) {
       // var msg = "progression : " + metadata.percent.toFixed(2) + " %";
       // if(metadata.currentFile) {
