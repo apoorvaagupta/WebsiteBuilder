@@ -76,8 +76,6 @@ $(function () {
   })
 
 
-
-
   $('#genWebBtn').click(function (e) {
     e.preventDefault();
     let info = {};
@@ -93,30 +91,30 @@ $(function () {
     let linkedin = $('#linkedin').val();
     let github = $('#github').val();
 
-    if(name)
+    if (name)
       info.name = name;
-    if(job)
+    if (job)
       info.job = job;
-    if(bio)
+    if (bio)
       info.bio = bio;
-    if(email)
+    if (email)
       info.email = email;
-    if(phone)
+    if (phone)
       info.phone = phone;
-    if(address)
+    if (address)
       info.address = address;
-    if(fb)
+    if (fb)
       info.fb = fb;
-    if(twitter)
+    if (twitter)
       info.twitter = twitter;
-    if(linkedin)
+    if (linkedin)
       info.linkedin = linkedin;
-    if(github)
+    if (github)
       info.github = github;
 
     let experiences = [];
 
-    for(let i = 1 ; i<= expCounter; i++){
+    for (let i = 1; i <= expCounter; i++) {
       let exp = {};
 
       let job = $('#expJob' + i).val();
@@ -124,13 +122,13 @@ $(function () {
       let year = $('#expYear' + i).val();
       let des = $('#expDes' + i).val();
 
-      if(job)
+      if (job)
         exp.job = job;
-      if(company)
+      if (company)
         exp.company = company;
-      if(year)
+      if (year)
         exp.year = year;
-      if(des)
+      if (des)
         exp.des = des;
 
       experiences.push(exp);
@@ -139,7 +137,7 @@ $(function () {
 
     let educations = [];
 
-    for(let i = 1 ; i<= eduCounter; i++){
+    for (let i = 1; i <= eduCounter; i++) {
       let edu = {};
 
       let name = $('#eduName' + i).val();
@@ -147,13 +145,13 @@ $(function () {
       let time = $('#eduTime' + i).val();
       let marks = $('#eduMarks' + i).val();
 
-      if(name)
+      if (name)
         edu.name = name;
-      if(type)
+      if (type)
         edu.type = type;
-      if(time)
+      if (time)
         edu.time = time;
-      if(marks)
+      if (marks)
         edu.marks = marks;
 
       educations.push(edu);
@@ -162,12 +160,12 @@ $(function () {
 
     let skills = [];
 
-    for(let i = 1 ; i<= skillCounter; i++){
+    for (let i = 1; i <= skillCounter; i++) {
       let skill = {};
 
       let skillName = $('#skillName' + i).val();
 
-      if(skillName)
+      if (skillName)
         skill.name = skillName;
 
       skills.push(skill);
@@ -176,28 +174,28 @@ $(function () {
 
     let achievements = [];
 
-    for(let i = 1 ; i<= achievementCounter; i++){
+    for (let i = 1; i <= achievementCounter; i++) {
       let ach = {};
 
       let des = $('#achDes' + i).val();
 
-      if(des)
+      if (des)
         ach.des = des;
 
       achievements.push(ach);
 
     }
 
-    if(experiences.length > 0){
+    if (experiences.length > 0) {
       info.experiences = experiences;
     }
-    if(educations.length > 0){
+    if (educations.length > 0) {
       info.education = educations;
     }
-    if(skills.length > 0){
+    if (skills.length > 0) {
       info.skills = skills;
     }
-    if(achievements.length > 0){
+    if (achievements.length > 0) {
       info.achievements = achievements;
     }
 
