@@ -12,23 +12,23 @@
     background-size: cover;
 }
 
-body{
-    font-family: HelveticaNeueW01-45Ligh,HelveticaNeueW02-45Ligh,HelveticaNeueW10-45Ligh,sans-serif;
+body {
+    font-family: HelveticaNeueW01-45Ligh, HelveticaNeueW02-45Ligh, HelveticaNeueW10-45Ligh, sans-serif;
 }
 
-
-.a-style{
+.a-style {
     font-size: 24px;
     padding: 10px 40px;
     border-radius: 2rem;
     color: black;
-    border-color: black!important;
+    border-color: black !important;
     font-weight: lighter;
 }
-.a-style:hover{
+
+.a-style:hover {
     color: white !important;
     background-color: #1485E8;
-    border-color: #1485E8!important;
+    border-color: #1485E8 !important;
 }
 
 .input {
@@ -37,18 +37,19 @@ body{
     border-left: 0;
     border-right: 0;
     border-bottom: 1px solid;
-    border-bottom-color: rgba(0,0,0,0.15);
+    border-bottom-color: rgba(0, 0, 0, 0.15);
     padding: 0px;
     margin-bottom: 30px;
     padding-bottom: 5px;
     font-size: 20px;
     font-weight: lighter;
 }
-.in-img{
-    border-bottom: 0!important;
+
+.in-img {
+    border-bottom: 0 !important;
 }
 
-.input-class{
+.input-class {
     color: #D3D3D3;
     font-size: 20px;
     font-weight: lighter;
@@ -61,47 +62,47 @@ body{
     outline: none;
 }
 
-.form-group:focus{
+.form-group:focus {
     outline: none;
     box-shadow: none;
 }
 
-.form-control:focus{
+.form-control:focus {
     box-shadow: none;
 }
 
-.label-style{
+.label-style {
     color: #1485E8;
     font-weight: 500;
     margin-bottom: 30px;
     font-size: 28px;
 }
-.label-style-2{
+
+.label-style-2 {
     color: #1485E8;
     font-weight: 500;
     font-size: 28px;
 }
 
-hr{
+hr {
     margin-top: 0;
 }
 
 /*input::-webkit-input-placeholder {*/
-    /*color: #D3D3D3 !important;*/
+/*color: #D3D3D3 !important;*/
 /*}*/
 /*input::-webkit-textfield-decoration-container {*/
-    /*color: #D3D3D3 !important;*/
+/*color: #D3D3D3 !important;*/
 /*}*/
 
-
 /*input:-moz-placeholder { !* Firefox 18- *!*/
-    /*color: #D3D3D3 !important;*/
+/*color: #D3D3D3 !important;*/
 /*}*/
 
 /*input::-moz-placeholder {  !* Firefox 19+ *!*/
-    /*color: #D3D3D3 !important;*/
+/*color: #D3D3D3 !important;*/
 /*}*/
 
 /*input:-ms-input-placeholder {*/
-    /*color: #D3D3D3 !important;*/
+/*color: #D3D3D3 !important;*/
 /*}*/
